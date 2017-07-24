@@ -1,0 +1,134 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
+
+
+# 
+# # Victim Demographic
+# We conducted the survey with a target of achieving a 100 responses. We got 92 so far. Nevertheless, the responses were enough for us to get answers to the questions we were asking about cyber harassment in Bangladesh. The very first thing we wanted to see was the gender of the respondents i.e. which of the genders clicks on the survey more and takes it. The survey was meant to take around 10 mins to be filled if one were to write the whole description. So we figured the ratio would be pretty intriguing. Here's what we found:
+# 
+# 
+
+# In[19]:
+
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['Male', 'Female', 'Prefer not to say']
+values = [29.3, 66.3, 15]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_chart7')
+
+
+
+# Furthermore, we realized we needed to know the age demographic of the demographics. Whether the respondee was harassed or not, we wanted to see what age of people approached the survey. Not so surprisingly, around 65% belonged to the age group between 14 and 20 i.e adolescents.
+
+# In[20]:
+
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['36 and up', '21-26', '37-35', '14-20']
+values = [1, 35, 2, 65]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_chart2')
+
+
+# # Something we often see being talked about is what cyber harassment is in the eyes of both the victims and the harassers. We asked our respondents the same question. Even though our hypothesis was that most people would go with "uploading someone's pictures/manipulating them", majority actually voted for any sort of threatening/blackmailing done online. Manipulation of pictures came second and this shows us that cyber harassment can be varied. It doesn't always have to be set within a particular list of incidents.
+
+# <img src="https://preview.ibb.co/kY7pdF/loser.png" alt="loser" border="0" height= "4200" width="5200">
+
+# ## Is cyber harassment a serious issue in Bangladesh right now? 
+
+# In[21]:
+
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['Yes', 'No', 'Maybe']
+values = [83, 5, 15]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_chart3')
+
+
+
+
+# ## Have you or your friend ever been cyber bullied?
+
+# In[22]:
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['YES', 'NO', 'Prefer not to say']
+values = [70, 28, 2]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_chart4')
+
+
+# ## Did you report to anyone, if you have been cyber harassed?
+
+# In[23]:
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['YES', 'NO', 'NOT APPLICABLE']
+values = [35, 38, 26]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_char5t')
+
+
+# ## Take a moment and imagine what you would have done if someone manipulated your picture and uploaded them without your consent. What would your first step be in a situation like that?
+
+# In[ ]:
+
+
+
+
+# ##  Do you think victims of cyber harassment should be provided with mental support?
+
+# In[24]:
+
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+
+labels = ['YES', 'NO']
+values = [95, 5]
+plotly.tools.set_credentials_file(username='Mashiat', api_key='JiJVspFlv6WLlvs1o1wi')
+trace = go.Pie(labels=labels, values=values)
+
+py.iplot([trace], filename='basic_pie_chart6')
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
